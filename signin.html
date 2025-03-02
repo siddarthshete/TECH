@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice page</title>
+    <style>
+        body{
+            background-image: url("hungerjpg.jpg");
+            background-size: cover;
+        }
+        #nav{
+            height: 75px;
+            width: 100%;
+            opacity: 0.4;
+            background-color: rgb(150, 173, 232) ;
+        }
+        ul{
+            margin-left: 62%;
+        }
+        ul li a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        ul li{
+            display: inline;
+            font-size: 28px;
+            padding: 12px;
+            line-height: 75px;
+            
+        }
+        ul li a:hover{
+            background-color: black;
+            color: white;
+            zoom: 50px;
+            border-radius: 10px;
+        }
+        #box{
+            height: 550px;
+            width: 350px;
+            background-color:rgb(150, 173, 232);
+            opacity: 0.8;
+            margin-top: 100px;
+            margin-left: 600px;
+            border-radius: 35px;
+            
+        }
+        #input{
+            margin-left: 65px;
+            opacity: 0.9;
+            background-color: white;
+            border-radius: 15px;
+            padding: 8px;
+            width: 200px;
+            border-left-style: none;
+            border-right-style: none;
+            border-top-style: none;
+            text-align: center;
+        }
+        #input:hover{
+            background-color: black;
+            color: white;
+        }
+        h2{
+            text-align: center;
+            text-size-adjust: bold;
+        }
+        #btn{
+            margin-left: 145px;
+            padding: 15px;
+            border-radius: 15px;
+        }
+        #btn:hover{
+            background-color: black;
+            color: white;
+        }
+        #img{
+            height: 100px;
+            width: 100px;
+            border-radius: 30%;
+            margin-left: 120px;
+            margin-top: -50px;
+        }
+        #img1{
+            height: 80px;
+            width: 170px;
+            margin-top: 20px;
+            margin-left: 90px;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <ul>
+            <li><a href="fpage.html">Home</a></li>
+            <li><a href="">Donate</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </div>
+    <div id="box">
+        <img src="logo.jpg" id="img">
+        <h2>Signup</h2>
+        <form action=#>
+            <input type="text" placeholder="User Name" required id="input" >
+            <br><br>
+            <input type="email" placeholder="Email" required id="input" >
+            <br><br>
+            <input type="password" placeholder="Password" required id="input" >
+            <br><br>
+            <input type="password" placeholder="Confirm Password" required id="input" >
+            <br><br>
+            <input type="date" placeholder="Date of Birth" id="input">
+            <br><br>
+            <input type="submit"  value="Signup" id="btn" >
+        </form>
+        <img src="logo3.jpg" id="img1">
+    </div>
+</body>
+</html>

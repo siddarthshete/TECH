@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My web page</title>
+    <style>
+        body{
+            background-image: url("hungerjpg.jpg");
+            background-size: cover;
+        }
+        #main{
+            
+            height: 400px;
+            width: 300px;
+            background-color: rgb(150, 173, 232);
+            margin-left: 580px;
+            margin-top: 150px;
+            border: 2px solid black;
+            border-radius: 0px 35px;
+            opacity: 0.8;
+        }
+        #img2{
+            width: 100px;
+            height: 100px;
+            margin-left: 100px;
+            margin-top: -40px;
+            shape-rendering: crispEdges;
+            border-radius: 50%;
+        }
+        h2{
+            text-align: center;
+            margin-top: 5px;
+        }
+        #input{
+            margin-left: 50px;
+            padding: 10px;
+            border-left-style: none;
+            border-right-style: none;
+            border-top-style: none;
+            border-radius: 15px;
+            width: 60%;
+            text-align: center;
+        }
+        #input:hover{
+            background-color: black;
+            color: white;
+        }
+        #login{
+            margin-left: 120px;
+            padding: 10px;
+        }
+        #login:hover{
+            background-color: black;
+            color: white;
+        }
+        #img3{
+            width: 200px;
+            height: 100px;
+            margin-left: 50px;
+        }
+        #nav{
+            height: 75px;
+            width: 100%;
+            opacity: 0.4;
+            background-color: rgb(150, 173, 232) ;
+        }
+        ul{
+            margin-left: 62%;
+            
+        }
+        ul li a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        ul li{
+            display: inline;
+            font-size: 28px;
+            padding: 12px;
+            line-height: 75px;
+        }
+        ul li a:hover{
+            background-color: black;
+            color: white;
+            zoom: 50px; 
+        }
+        .one{
+            margin-left: 100px;
+            text-decoration: none;
+            color: black;
+        }
+        .one:hover{
+            color: blue;
+            text-decoration-line: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <ul>
+            <li><a href="fpage.html">Home</a></li>
+            <li><a href="">Donate</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </div>
+    <div id="main">
+        <img src="logo.jpg" id="img2">
+        <h2>Verify account</h2>
+        <form >
+            <input type="text" placeholder="Enter User" required id="input"><br><br>
+            <input type="email" placeholder="Enter email" required id="input"><br><br>
+            <input type="date" placeholder="Enter Birthdate" required id="input"><br><br>
+            <input type="submit" value="Verify" id="login" ><br><br>
+            <a href="login.html" class="one">Login Account</a><br><br>
+        </form>
+    </div>
+    
+</body>
+</html>
